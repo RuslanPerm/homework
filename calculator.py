@@ -2,6 +2,7 @@ print('Я помогу вам узнать ваш индекс массы тел
 height = float(input('Введите ваш рост: '))
 weight = float(input('Введите вашу массу: '))
 index = 0
+coeff = 0
 if index < 18.5:
     print('Деффицит массы')
 elif (index < 30) and (index > 25):
