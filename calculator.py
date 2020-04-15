@@ -3,6 +3,6 @@ height = float(input('Введите ваш рост: '))
 weight = float(input('Введите вашу массу: '))
 index, gender = 0, input('Вы man or woman: ')
 if gender == 'man':
-    pass
+    coeff = 94
 elif gender == 'woman':
-    pass
+    coeff = 80
