@@ -5,4 +5,4 @@ index, gender = 0, input('Вы man or woman: ')
 if gender == 'man':
     coeff = 94
 elif gender == 'woman':
-    pass
+    coeff = 80
